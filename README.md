@@ -36,10 +36,15 @@ php artisan serve
 ```
 
 ### 6.- Ir a url del servidor
+
+```bash
 http://127.0.0.1:8000/
+```
 
 ### 7.- Iniciar sesion en APP
+
+```bash
 user: admin@admin.com
 pass: admin
-
+```
 
