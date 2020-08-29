@@ -12,7 +12,7 @@ git clone https://github.com/osbaldo950/admintemplatelaravel7.git
 composer install
 ```
 
-### 3.- Configurar archivo .env de nuestra aplicación, realizando la conexión a la base de datos
+### 3.- Crear y configurar archivo .env de nuestra aplicación, realizando la conexión a la base de datos
 
 ```bash
 DB_CONNECTION=mysql
@@ -23,31 +23,37 @@ DB_USERNAME=USER
 DB_PASSWORD=PASS
 ```
 
-### 4.- Borrar cache de la aplicación
+### 4.- Crear la llave de la aplicación
+
+```bash
+php artisan key:generate 
+```
+
+### 5.- Borrar cache de la aplicación
 
 ```bash
 php artisan config:cache
 ```
 
-### 5.- Ejecutar las migraciones
+### 6.- Ejecutar las migraciones
 
 ```bash
 php artisan migrate
 ```
 
-### 6.- Iniciar servidor laravel##
+### 7.- Iniciar servidor laravel
 
 ```bash
 php artisan serve
 ```
 
-### 7.- Ir a url del servidor
+### 8.- Ir a url del servidor
 
 ```bash
 http://127.0.0.1:8000/
 ```
 
-### 8.- Iniciar sesion en la aplicación
+### 9.- Iniciar sesion en la aplicación
 
 ```bash
 user: admin@admin.com
