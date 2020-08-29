@@ -23,25 +23,31 @@ DB_USERNAME=USER
 DB_PASSWORD=PASS
 ```
 
-### 4.- Ejecutar las migraciones
+### 4.- Borrar cache de la aplicación
+
+```bash
+php artisan config:cache
+```
+
+### 5.- Ejecutar las migraciones
 
 ```bash
 php artisan migrate
 ```
 
-### 5.- Iniciar servidor laravel##
+### 6.- Iniciar servidor laravel##
 
 ```bash
 php artisan serve
 ```
 
-### 6.- Ir a url del servidor
+### 7.- Ir a url del servidor
 
 ```bash
 http://127.0.0.1:8000/
 ```
 
-### 7.- Iniciar sesion en APP
+### 8.- Iniciar sesion en la aplicación
 
 ```bash
 user: admin@admin.com
