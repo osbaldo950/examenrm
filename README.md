@@ -6,7 +6,7 @@
 git clone https://github.com/osbaldo950/admintemplatelaravel7.git
 ```
 
-### 2.- Instalar paquetes de la aplicación
+### 2.- Entrar a la carpeta clonada y instalar paquetes de la aplicación
 
 ```bash
 composer install
@@ -47,7 +47,7 @@ php artisan migrate
 php artisan serve
 ```
 
-### 8.- Ir a url del servidor
+### 8.- Ir a url del servidor en nuestro navegador
 
 ```bash
 http://127.0.0.1:8000/
