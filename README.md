@@ -3,7 +3,7 @@
 ### 1.- Clonar el repostorio en local
 
 ```bash
-git clone https://github.com/osbaldo950/admintemplatelaravel7.git
+git clone https://github.com/osbaldo950/examenrm.git
 ```
 
 ### 2.- Entrar a la carpeta clonada y instalar paquetes de la aplicación
