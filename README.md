@@ -3,6 +3,7 @@
 ### 1.- Clonar el repostorio en local
 
 ```bash
+php requerido PHP >= 7.2.5
 git clone https://github.com/osbaldo950/examenrm.git
 ```
 
