@@ -1,9 +1,20 @@
-## Instalación de la plantilla
+## Instalación Examen
 
+### Tecnologías utilizadas en proyecto:
+```bash
+php
+laravel 7.0
+php requerido PHP >= 7.2.5
+javascript
+jquery 3.6
+bootstrap 4
+css 3
+html 5
+git clone https://github.com/osbaldo950/examenrm.git
+```
 ### 1.- Clonar el repostorio en local
 
 ```bash
-php requerido PHP >= 7.2.5
 git clone https://github.com/osbaldo950/examenrm.git
 ```
 
